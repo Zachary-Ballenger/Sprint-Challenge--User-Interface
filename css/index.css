@@ -28,6 +28,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 body {
 	line-height: 1;
 }
@@ -68,6 +70,7 @@ p {
 
 .container {
     width: 800px;
+    height: 2000px;
     margin: 0 auto;
 }
 
@@ -77,6 +80,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding: 25px;
 }
 
 .top-content .text-container {
@@ -143,4 +147,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.jumbo {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-about-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap}
+
+    .little-boxes {
+        display: flex;
+        flex-direction: column;
+        column-gap: 40px;
+       
+        column-count: 2;
+        justify-content: center;
+        align-items: center;
+        max-height: 4000px;
+        border: 10px solid red;
+width: 1000px;
+
+    }        
+    
+nav {
+align-items: baseline;
 }
